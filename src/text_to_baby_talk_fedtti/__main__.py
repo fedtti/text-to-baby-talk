@@ -1,10 +1,11 @@
-from text_to_baby_talk_fedtti.translator import translator
 import click
+from .translator import TextToBabyTalk
 
 @click.command()
 def main():
     """"""
-    translator()
+    translator = TextToBabyTalk.translator()
+    click.echo(translator)
 
 if __name__ == "__main__":
     main()

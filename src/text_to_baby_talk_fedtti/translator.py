@@ -1,10 +1,13 @@
-import click
+import re
 
 dictionary = {
 
 }
 
-@click.command()
-def translator():
-    """"""
-    click.echo("Test")
+class TextToBabyTalk:
+    def __init__(self):
+        """"""
+
+    def translator():
+        """"""
+        return "Test"
