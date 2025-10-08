@@ -1,11 +1,7 @@
-import click
-from .translator import TextToBabyTalk
-
-@click.command()
+from .translator import cli
 def main():
     """"""
-    translator = TextToBabyTalk.translator()
-    click.echo(translator)
+    cli()
 
 if __name__ == "__main__":
     main()

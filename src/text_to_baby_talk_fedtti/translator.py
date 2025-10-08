@@ -1,13 +1,14 @@
+import click
 import re
+import sys
 
-dictionary = {
+@click.command()
+@click.option("--translate", prompt = True)
+def cli(translate):
 
-}
+    click.echo(f"{translate}\n")
 
-class TextToBabyTalk:
-    def __init__(self):
-        """"""
+    if click.confirm("Continue?"):
+        cli()
 
-    def translator():
-        """"""
-        return "Test"
+    sys.exit(0)
