@@ -1,4 +1,5 @@
 import re
+import random
 import click
 import sys
 
@@ -6,6 +7,7 @@ import sys
 
 """
 def replace_letters(word) -> str:
+
     return word
 
 """
@@ -15,8 +17,8 @@ def replace_words(sentence) -> str:
     translation = []
 
     common_baby_words = {
+        "father": "dad",
         "mother": "mom",
-        "father": "dad"
     }
 
     words = sentence.split()
