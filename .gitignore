@@ -1,2 +1,7 @@
 .venv/
+build/
 dist/
+wheels/
+__pycache__/
+*.egg-info
+*.py[oc]

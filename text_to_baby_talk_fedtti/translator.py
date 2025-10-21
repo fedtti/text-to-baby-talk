@@ -7,7 +7,7 @@ import sys
 
 """
 def replace_letters(word) -> str:
-
+    # TODO: @fedtti - Add letters replacements.
     return word
 
 """
@@ -51,7 +51,7 @@ def translator(sentence) -> str:
 """
 @click.command()
 @click.option("--text", prompt = True)
-def cli(text):
+def cli(text) -> None:
     baby_talk = translator(text)
     click.echo(f"{baby_talk}\n")
 

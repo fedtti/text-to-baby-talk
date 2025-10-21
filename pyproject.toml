@@ -1,7 +1,7 @@
 [project]
 name = "text-to-baby-talk-fedtti"
 version = "0.1.0"
-description = "Add your description here"
+description = "..."
 readme = "README.md"
 authors = [
     { name = "Federico Moretti", email = "hello@federicomoretti.it" }
